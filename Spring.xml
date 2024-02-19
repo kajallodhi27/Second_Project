@@ -1,0 +1,67 @@
+
+ <?xmlversion="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- ,--------- byName------------------, -->
+	<!--  </bean>
+
+	<bean id="shapeBean" class="com.jsp.spring.Shape" autowire="byName">
+
+	</bean>
+
+	<bean id="circle" class="com.jsp.spring.Circle">
+
+	</bean> -->
+	
+	<!-- ,--------- byType------------------, -->
+	
+	<!-- <bean id="shapeBean" class="com.jsp.spring.Shape" autowire="byType">
+
+	</bean>
+
+	<bean id="circleBean" class="com.jsp.spring.Circle">
+
+	</bean> -->
+	
+	
+	<!-- ,--------- Constructor------------------, -->
+	
+	<!--  <bean id="shapeBean" class="com.jsp.spring.Shape" autowire="constructor">
+
+	</bean>
+
+	<bean id="circleBean" class="com.jsp.spring.Circle">
+
+	</bean>-->
+	
+	
+	<!-- ,--------- no------------------, -->
+	
+	<--<bean id="shapeBean" class="com.jsp.spring.Shape" autowire="no">
+
+	</bean>
+
+	<bean id="circleBean" class="com.jsp.spring.Circle">
+
+	</bean>-->
+	
+	<!-- ,--------- default------------------, -->
+	
+	<bean id="shapeBean" class="com.jsp.spring.Shape" autowire="default">
+
+	</bean>
+
+	<bean id="circleBean" class="com.jsp.spring.Circle">
+
+	</bean>
+	
+	
+	
+	
+	
+
+</beans>
